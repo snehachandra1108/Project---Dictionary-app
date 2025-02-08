@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    background: url("https://drsw10gc90t0z.cloudfront.net/AcuCustom/Sitename/DAM/544/Dictionary__Shutterstock1.jpg") no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.container {
+    width: 400px;
+    background: rgb(209, 235, 101);
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #111111;
+}
+
+.search-box {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.search-box input {
+    flex: 1;
+    padding: 12px;
+    border: 2px solid #ced4da; /* Soft gray border */
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    background: #f8f9fa; /* Light background */
+}
+
+.search-box button {
+    padding: 12px 15px;
+    border: none;
+    background: #b0d715; /* Muted gray */
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.search-box button:hover {
+    background: #495057; /* Darker gray on hover */
+}
+
+.result-box {
+    text-align: left;
+    padding: 15px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.08);
+    display: none; /* Hide until search is made */
+}
+
+.word {
+    font-size: 22px;
+    font-weight: bold;
+    color: #343a40;
+}
+
+.part-of-speech {
+    font-size: 16px;
+    color: #6c757d;
+    margin-bottom: 10px;
+}
+
+.definition {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #495057;
+}
+
+.example {
+    font-style: italic;
+    color: #868e96;
+    margin-bottom: 10px;
+}
+
+.synonyms, .antonyms {
+    font-size: 16px;
+    color: #212529;
+    margin-top: 5px;
+}
+
+.audio-button {
+    display: inline-block;
+    background: #adb5bd; /* Soft gray */
+    color: white;
+    padding: 8px 12px;
+    border-radius: 8px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.audio-button:hover {
+    background: #868e96; /* Darker shade */
+}
