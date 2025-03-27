@@ -1,5 +1,7 @@
 This is a simple Dictionary Web App that allows users to search for words and retrieve their meanings, phonetics, audio pronunciation, synonyms, antonyms, and example sentences. The app uses the Free Dictionary API to fetch word details and displays them in a user-friendly interface.
 
+I made this project as part of my trimester end submission project at my college
+
 Features:
 
 1.Search for any English word
